@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: tetelestaiuk/one-click-hugo-cms # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
